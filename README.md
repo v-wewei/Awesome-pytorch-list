@@ -4,7 +4,7 @@ Awesome-Pytorch-list
 ![pytorch-logo-dark](https://raw.githubusercontent.com/pytorch/pytorch/master/docs/source/_static/img/pytorch-logo-dark.png)
 
 <p align="center">
-	<img src="https://img.shields.io/badge/stars-7800+-brightgreen.svg?style=flat"/>
+	<img src="https://img.shields.io/badge/stars-12400+-brightgreen.svg?style=flat"/>
 	<img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat">
 </p>
 
@@ -14,7 +14,7 @@ Awesome-Pytorch-list
   - [Computer Vision](#cv)
   - [Probabilistic/Generative Libraries](#probabilisticgenerative-libraries)
   - [Other libraries](#other-libraries)
-- [Tutorials & examples](#tutorials--examples)
+- [Tutorials, books & examples](#tutorials-books--examples)
 - [Paper implementations](#paper-implementations)
 - [Talks & Conferences](#talks--conferences)
 - [Pytorch elsewhere](#pytorch-elsewhere)
@@ -22,6 +22,7 @@ Awesome-Pytorch-list
 ## Pytorch & related libraries
 
 1. [pytorch](http://pytorch.org): Tensors and Dynamic neural networks in Python with strong GPU acceleration.
+2. [Captum](https://github.com/pytorch/captum): Model interpretability and understanding for PyTorch.
 
 ### NLP & Speech Processing:
 
@@ -61,6 +62,14 @@ Awesome-Pytorch-list
 34. [transfer-nlp](https://github.com/feedly/transfer-nlp): NLP library designed for flexible research and development
 35. [texar-pytorch](https://github.com/asyml/texar-pytorch): Toolkit for Machine Learning and Text Generation, in PyTorch texar.io
 36. [pytorch-kaldi](https://github.com/mravanelli/pytorch-kaldi): pytorch-kaldi is a project for developing state-of-the-art DNN/RNN hybrid speech recognition systems. The DNN part is managed by pytorch, while feature extraction, label computation, and decoding are performed with the kaldi toolkit.
+37. [NeMo](https://github.com/NVIDIA/NeMo): Neural Modules: a toolkit for conversational AI nvidia.github.io/NeMo
+38. [pytorch-struct](https://github.com/harvardnlp/pytorch-struct): A library of vectorized implementations of core structured prediction algorithms (HMM, Dep Trees, CKY, ..,)
+39. [espresso](https://github.com/freewym/espresso): Espresso: A Fast End-to-End Neural Speech Recognition Toolkit
+40. [transformers](https://github.com/huggingface/transformers): huggingface Transformers: State-of-the-art Natural Language Processing for TensorFlow 2.0 and PyTorch. huggingface.co/transformers
+41. [reformer-pytorch](https://github.com/lucidrains/reformer-pytorch): Reformer, the efficient Transformer, in Pytorch
+42. [torch-metrics](https://github.com/enochkan/torch-metrics): Metrics for model evaluation in pytorch
+43. [speechbrain](https://github.com/speechbrain/speechbrain): SpeechBrain is an open-source and all-in-one speech toolkit based on PyTorch.
+44. [Backprop](https://github.com/backprop-ai/backprop): Backprop makes it simple to use, finetune, and deploy state-of-the-art ML models.
 
 ### CV:
 
@@ -78,13 +87,31 @@ Awesome-Pytorch-list
 12. [Augmentor](https://github.com/mdbloice/Augmentor): Image augmentation library in Python for machine learning. http://augmentor.readthedocs.io
 13. [s2cnn](https://github.com/jonas-koehler/s2cnn): 
 This library contains a PyTorch implementation of the SO(3) equivariant CNNs for spherical signals (e.g. omnidirectional cameras, signals on the globe)
-14. [PyTorchCV](https://github.com/CVBox/PyTorchCV): A PyTorch-Based Framework for Deep Learning in Computer Vision. 
+14. [TorchCV](https://github.com/donnyyou/torchcv): A PyTorch-Based Framework for Deep Learning in Computer Vision. 
 15. [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark): Fast, modular reference implementation of Instance Segmentation and Object Detection algorithms in PyTorch.
 16. [image-classification-mobile](https://github.com/osmr/imgclsmob): Collection of classification models pretrained on the ImageNet-1K.
 17. [medicaltorch](https://github.com/perone/medicaltorch): A medical imaging framework for Pytorch http://medicaltorch.readthedocs.io
 18. [albumentations](https://github.com/albu/albumentations): Fast image augmentation library.
 19. [kornia](https://github.com/arraiyopensource/kornia): Differentiable computer vision library.
-20. [pytorch-text-recognition](https://github.com/s3nh/pytorch-text-recognition): Text recognition combo - CRAFT + CRNN. 
+20. [pytorch-text-recognition](https://github.com/s3nh/pytorch-text-recognition): Text recognition combo - CRAFT + CRNN.
+21. [facenet-pytorch](https://github.com/timesler/facenet-pytorch): Pretrained Pytorch face detection and recognition models ported from davidsandberg/facenet.
+22. [detectron2](https://github.com/facebookresearch/detectron2): Detectron2 is FAIR's next-generation research platform for object detection and segmentation.
+23. [vedaseg](https://github.com/Media-Smart/vedaseg): A semantic segmentation framework by pyotrch
+24. [ClassyVision](https://github.com/facebookresearch/ClassyVision): An end-to-end PyTorch framework for image and video classification.
+25. [detecto](https://github.com/alankbi/detecto):Computer vision in Python with less than 10 lines of code
+26. [pytorch3d](https://github.com/facebookresearch/pytorch3d): PyTorch3D is FAIR's library of reusable components for deep learning with 3D data pytorch3d.org
+27. [MMDetection](https://github.com/open-mmlab/mmdetection): MMDetection is an open source object detection toolbox, a part of the [OpenMMLab project](https://open-mmlab.github.io/).
+28. [neural-dream](https://github.com/ProGamerGov/neural-dream): A PyTorch implementation of the DeepDream algorithm. Creates dream-like hallucinogenic visuals.
+29. [FlashTorch](https://github.com/MisaOgura/flashtorch): Visualization toolkit for neural networks in PyTorch!
+30. [Lucent](https://github.com/greentfrapp/lucent): Tensorflow and OpenAI Clarity's Lucid adapted for PyTorch.
+31. [MMDetection3D](https://github.com/open-mmlab/mmdetection3d): MMDetection3D is OpenMMLab's next-generation platform for general 3D object detection, a part of the [OpenMMLab project](https://open-mmlab.github.io/).
+32. [MMSegmentation](https://github.com/open-mmlab/mmsegmentation): MMSegmentation is a semantic segmentation toolbox and benchmark, a part of the [OpenMMLab project](https://open-mmlab.github.io/).
+33. [MMEditing](https://github.com/open-mmlab/mmediting): MMEditing is a image and video editing toolbox, a part of the [OpenMMLab project](https://open-mmlab.github.io/).
+34. [MMAction2](https://github.com/open-mmlab/mmaction2): MMAction2 is OpenMMLab's next generation action understanding toolbox and benchmark, a part of the [OpenMMLab project](https://open-mmlab.github.io/).
+35. [MMPose](https://github.com/open-mmlab/mmpose): MMPose is a pose estimation toolbox and benchmark, a part of the [OpenMMLab project](https://open-mmlab.github.io/).
+36. [lightly](https://github.com/lightly-ai/lightly) - Lightly is a computer vision framework for self-supervised learning.
+37. [RoMa](https://naver.github.io/roma/): a lightweight and efficient library to deal with 3D rotations.
+
 
 ### Probabilistic/Generative Libraries:
 
@@ -219,12 +246,43 @@ This library contains a PyTorch implementation of the SO(3) equivariant CNNs for
 118. [pytorch-toolbelt](https://github.com/BloodAxe/pytorch-toolbelt): PyTorch extensions for fast R&D prototyping and Kaggle farming
 119. [argus-tensor-stream](https://github.com/Fonbet/argus-tensor-stream): A library for real-time video stream decoding to CUDA memory tensorstream.argus-ai.com
 120. [macarico](https://github.com/hal3/macarico): learning to search in pytorch
+121. [rlpyt](https://github.com/astooke/rlpyt): Reinforcement Learning in PyTorch
+122. [pywarm](https://github.com/blue-season/pywarm): A cleaner way to build neural networks for PyTorch. blue-season.github.io/pywarm
+123. [learn2learn](https://github.com/learnables/learn2learn): PyTorch Meta-learning Framework for Researchers http://learn2learn.net
+124. [torchbeast](https://github.com/facebookresearch/torchbeast): A PyTorch Platform for Distributed RL
+125. [higher](https://github.com/facebookresearch/higher): higher is a pytorch library allowing users to obtain higher order gradients over losses spanning training loops rather than individual training steps.
+126. [Torchelie](https://github.com/Vermeille/Torchelie/): Torchélie is a set of utility functions, layers, losses, models, trainers and other things for PyTorch. torchelie.readthedocs.org 
+127. [CrypTen](https://github.com/facebookresearch/CrypTen): CrypTen is a Privacy Preserving Machine Learning framework written using PyTorch that allows researchers and developers to train models using encrypted data. CrypTen currently supports Secure multi-party computation as its encryption mechanism.
+128. [cvxpylayers](https://github.com/cvxgrp/cvxpylayers): cvxpylayers is a Python library for constructing differentiable convex optimization layers in PyTorch
+129. [RepDistiller](https://github.com/HobbitLong/RepDistiller): Contrastive Representation Distillation (CRD), and benchmark of recent knowledge distillation methods
+130. [kaolin](https://github.com/NVIDIAGameWorks/kaolin): PyTorch library aimed at accelerating 3D deep learning research
+131. [PySNN](https://github.com/BasBuller/PySNN): Efficient Spiking Neural Network framework, built on top of PyTorch for GPU acceleration.
+132. [sparktorch](https://github.com/dmmiller612/sparktorch): Train and run Pytorch models on Apache Spark.
+133. [pytorch-metric-learning](https://github.com/KevinMusgrave/pytorch-metric-learning): The easiest way to use metric learning in your application. Modular, flexible, and extensible. Written in PyTorch.
+134. [autonomous-learning-library](https://github.com/cpnota/autonomous-learning-library): A PyTorch library for building deep reinforcement learning agents.
+135. [flambe](https://github.com/asappresearch/flambe): An ML framework to accelerate research and its path to production. flambe.ai
+136. [pytorch-optimizer](https://github.com/jettify/pytorch-optimizer): Collections of modern optimization algorithms for PyTorch, includes: AccSGD, AdaBound, AdaMod, DiffGrad, Lamb, RAdam, RAdam, Yogi.
+137. [PyTorch-VAE](https://github.com/AntixK/PyTorch-VAE): A Collection of Variational Autoencoders (VAE) in PyTorch.
+138. [ray](https://github.com/ray-project/ray): A fast and simple framework for building and running distributed applications. Ray is packaged with RLlib, a scalable reinforcement learning library, and Tune, a scalable hyperparameter tuning library. ray.io
+139. [Pytorch Geometric Temporal](https://github.com/benedekrozemberczki/pytorch_geometric_temporal): A temporal extension library for PyTorch Geometric 
+140. [Poutyne](https://github.com/GRAAL-Research/poutyne): A Keras-like framework for PyTorch that handles much of the boilerplating code needed to train neural networks.
+141. [Pytorch-Toolbox](https://github.com/PistonY/torch-toolbox): This is toolbox project for Pytorch. Aiming to make you write Pytorch code more easier, readable and concise.
+142. [Pytorch-contrib](https://github.com/pytorch/contrib): It contains reviewed implementations of ideas from recent machine learning papers.
+143. [EfficientNet PyTorch](https://github.com/lukemelas/EfficientNet-PyTorch): It contains an op-for-op PyTorch reimplementation of EfficientNet, along with pre-trained models and examples.
+144. [PyTorch/XLA](https://github.com/pytorch/xla): PyTorch/XLA is a Python package that uses the XLA deep learning compiler to connect the PyTorch deep learning framework and Cloud TPUs.
+145. [webdataset](https://github.com/tmbdev/webdataset): WebDataset is a PyTorch Dataset (IterableDataset) implementation providing efficient access to datasets stored in POSIX tar archives.
+146. [volksdep](https://github.com/Media-Smart/volksdep): volksdep is an open-source toolbox for deploying and accelerating PyTorch, Onnx and Tensorflow models with TensorRT.
+147. [PyTorch-StudioGAN](https://github.com/POSTECH-CVLab/PyTorch-StudioGAN): StudioGAN is a Pytorch library providing implementations of representative Generative Adversarial Networks (GANs) for conditional/unconditional image generation. StudioGAN aims to offer an identical playground for modern GANs so that machine learning researchers can readily compare and analyze a new idea.
+148. [torchdrift](https://github.com/torchdrift/torchdrift/): drift detection library
+149. [accelerate](https://github.com/huggingface/accelerate) : A simple way to train and use PyTorch models with multi-GPU, TPU, mixed-precision 
+150. [lightning-transformers](https://github.com/PyTorchLightning/lightning-transformers):  Flexible interface for high-performance research using SOTA Transformers leveraging Pytorch Lightning, Transformers, and Hydra. 
+151. [Flower](https://flower.dev/) A unified approach to federated learning, analytics, and evaluation. It allows to federated any machine learning workload.
+152. [lightning-flash](https://github.com/PyTorchLightning/lightning-flash): Flash is a collection of tasks for fast prototyping, baselining and fine-tuning scalable Deep Learning models, built on PyTorch Lightning.
+153. [Pytorch Geometric Signed Directed](https://github.com/SherylHYX/pytorch_geometric_signed_directed): A signed and directed extension library for PyTorch Geometric. 
+154. [Koila](https://github.com/rentruewang/koila): A simple wrapper around pytorch that prevents CUDA out of memory issues.
 
 
-
-
-
-## Tutorials & examples
+## Tutorials, books, & examples
 
 1. **[Practical Pytorch](https://github.com/spro/practical-pytorch)**: Tutorials explaining different RNN models
 2. [DeepLearningForNLPInPytorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html): An IPython Notebook tutorial on deep learning, with an emphasis on Natural Language Processing. 
@@ -292,7 +350,13 @@ Demonstration of training a small ResNet on CIFAR10 to 94% test accuracy in 79 s
 63. [thinking-in-tensors-writing-in-pytorch](https://github.com/stared/thinking-in-tensors-writing-in-pytorch): Thinking in tensors, writing in PyTorch (a hands-on deep learning intro).
 64. [NER-BERT-pytorch](https://github.com/lemonhu/NER-BERT-pytorch): PyTorch solution of named entity recognition task Using Google AI's pre-trained BERT model.
 65. [pytorch-sync-batchnorm-example](https://github.com/dougsouza/pytorch-sync-batchnorm-example): How to use Cross Replica / Synchronized Batchnorm in Pytorch. 
-
+66. [SentimentAnalysis](https://github.com/barissayil/SentimentAnalysis): Sentiment analysis neural network trained by fine tuning BERT on the Stanford Sentiment Treebank, thanks to [Hugging Face](https://huggingface.co/transformers/)'s Transformers library.
+67. [pytorch-cpp](https://github.com/prabhuomkar/pytorch-cpp): C++ implementations of PyTorch tutorials for deep learning researchers (based on the Python tutorials from [pytorch-tutorial](https://github.com/yunjey/pytorch-tutorial)). 
+68. [Deep Learning with PyTorch: Zero to GANs](https://jovian.ml/aakashns/collections/deep-learning-with-pytorch): Interactive and coding-focused tutorial series on introduction to Deep Learning with PyTorch ([video](https://www.youtube.com/watch?v=GIsg-ZUy0MY)).
+69. [Deep Learning with PyTorch](https://www.manning.com/books/deep-learning-with-pytorch): Deep Learning with PyTorch teaches you how to implement deep learning algorithms with Python and PyTorch, the book includes a case study: building an algorithm capable of detecting malignant lung tumors using CT scans.
+70. [Serverless Machine Learning in Action with PyTorch and AWS](https://www.manning.com/books/serverless-machine-learning-in-action): Serverless Machine Learning in Action is a guide to bringing your experimental PyTorch machine learning code to production using serverless capabilities from major cloud providers like AWS, Azure, or GCP.
+71. [LabML NN](https://github.com/lab-ml/nn): A collection of PyTorch implementations of neural networks architectures and algorithms with side-by-side notes.
+72. [Run your PyTorch Example Fedarated with Flower](https://github.com/adap/flower/tree/main/examples/pytorch_from_centralized_to_federated): This example demonstrates how an already existing centralized PyTorch machine learning project can be federated with Flower. A Cifar-10 dataset is used together with a convolutional neural network (CNN).
 
 ## Paper implementations
 
@@ -632,7 +696,18 @@ Janai, J., Güney, F., Ranjan, A., Black, M. and Geiger, A., Unsupervised Learni
 332. [breast_cancer_classifier](https://github.com/nyukat/breast_cancer_classifier): Deep Neural Networks Improve Radiologists' Performance in Breast Cancer Screening arxiv.org/abs/1903.08297
 333. [DGC-Net](https://github.com/AaltoVision/DGC-Net): A PyTorch implementation of "DGC-Net: Dense Geometric Correspondence Network".
 334. [universal-triggers](https://github.com/Eric-Wallace/universal-triggers): Universal Adversarial Triggers for Attacking and Analyzing NLP (EMNLP 2019)
-
+335. [Deep-Reinforcement-Learning-Algorithms-with-PyTorch](https://github.com/p-christ/Deep-Reinforcement-Learning-Algorithms-with-PyTorch): PyTorch implementations of deep reinforcement learning algorithms and environments.
+336. [simple-effective-text-matching-pytorch](https://github.com/alibaba-edu/simple-effective-text-matching-pytorch): A pytorch implementation of the ACL2019 paper "Simple and Effective Text Matching with Richer Alignment Features".
+336. [Adaptive-segmentation-mask-attack (ASMA)](https://github.com/utkuozbulak/adaptive-segmentation-mask-attack): A pytorch implementation of the MICCAI2019 paper "Impact of Adversarial Examples on Deep Learning Models for Biomedical Image Segmentation".
+337. [NVIDIA/unsupervised-video-interpolation](https://github.com/NVIDIA/unsupervised-video-interpolation): A PyTorch Implementation of [Unsupervised Video Interpolation Using Cycle Consistency](https://arxiv.org/abs/1906.05928), In ICCV 2019. 
+338. [Seg-Uncertainty](https://github.com/layumi/Seg-Uncertainty): Unsupervised Scene Adaptation with Memory Regularization in vivo, In IJCAI 2020.
+339. [pulse](https://github.com/adamian98/pulse): Self-Supervised Photo Upsampling via Latent Space Exploration of Generative Models
+340. [distance-encoding](https://github.com/snap-stanford/distance-encoding): Distance-Encoding - Design Provably More PowerfulGNNs for Structural Representation Learning.
+341. [Pathfinder Discovery Networks](https://github.com/benedekrozemberczki/PDN): Pathfinder Discovery Networks for Neural Message Passing.
+342. [PyKEEN](https://github.com/pykeen/pykeen): A Python library for learning and evaluating knowledge graph embeddings.
+343. [SSSNET](https://github.com/SherylHYX/SSSNET_Signed_Clustering): Official implementation of the SDM2022 paper "SSSNET: Semi-Supervised Signed Network Clustering".
+344. [MagNet](https://github.com/matthew-hirn/magnet): Official implementation of the NeurIPS2021 paper "MagNet: A Neural Network for Directed Graphs".
+345. [Semantic Search](https://github.com/kuutsav/information-retrieval): Latest in the field of neural information retrieval / semantic search.
 
 ## Talks & conferences
 
@@ -677,6 +752,7 @@ Janai, J., Güney, F., Ranjan, A., Black, M. and Geiger, A., Unsupervised Learni
 35. [tch-rs](https://github.com/LaurentMazare/tch-rs): Rust bindings for PyTorch.
 36. [TorchSharp](https://github.com/interesaaat/TorchSharp): .NET bindings for the Pytorch engine
 37. [ML Workspace](https://github.com/ml-tooling/ml-workspace): All-in-one web IDE for machine learning and data science. Combines Jupyter, VS Code, PyTorch, and many other tools/libraries into one Docker image.
+38. [PyTorch Style Guide](https://github.com/IgorSusmelj/pytorch-styleguide) Style guide for PyTorch code. Consistent and good code style helps collaboration and prevents errors!
 
 
 ##### Feedback: If you have any ideas or you want any other content to be added to this list, feel free to contribute.
